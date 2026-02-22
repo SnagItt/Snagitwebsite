@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="cs">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BEANIE SHOP | Stylové kulichy</title>
+    <title>BEANIE.CO | Premium Headwear</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
@@ -17,7 +17,7 @@
         <div class="container mx-auto flex justify-between items-center">
             <h1 class="text-2xl font-black tracking-tighter italic">BEANIE.CO</h1>
             <div class="flex items-center gap-6">
-                <a href="#produkty" class="text-sm font-bold uppercase tracking-widest hover:text-gray-500">Kolekce</a>
+                <a href="#shop" class="text-sm font-bold uppercase tracking-widest hover:text-gray-500">Collection</a>
                 <div class="relative cursor-pointer">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
                     <span class="absolute -top-2 -right-2 bg-black text-white text-[10px] w-4 h-4 rounded-full flex items-center justify-center">0</span>
@@ -26,71 +26,78 @@
         </div>
     </nav>
 
-    <section class="py-20 px-6 text-center bg-gray-50">
-        <span class="text-xs font-bold tracking-[0.3em] uppercase text-gray-400">Nová zimní drop 2026</span>
-        <h2 class="text-6xl md:text-8xl font-black mt-4 mb-8 tracking-tighter">ZŮSTAŇ <br>V TEPLE.</h2>
-        <a href="#produkty" class="bg-black text-white px-10 py-4 font-bold rounded-full hover:bg-gray-800 transition shadow-xl">PROHLÍŽET KULICHY</a>
+    <section class="py-24 px-6 text-center bg-gray-50">
+        <span class="text-[10px] font-bold tracking-[0.4em] uppercase text-gray-400">Winter Drop 2026</span>
+        <h2 class="text-7xl md:text-9xl font-black mt-4 mb-8 tracking-tighter uppercase">Stay <br>Cold.</h2>
+        <a href="#shop" class="bg-black text-white px-12 py-5 font-bold rounded-full hover:bg-gray-800 transition shadow-2xl inline-block">SHOP COLLECTION</a>
     </section>
 
-    <main id="produkty" class="container mx-auto py-20 px-6">
-        <h3 class="text-3xl font-black mb-12 italic">Kolekce_01</h3>
+    <main id="shop" class="container mx-auto py-20 px-6">
+        <div class="flex justify-between items-end mb-12">
+            <h3 class="text-4xl font-black italic uppercase tracking-tighter">Essential_Drop</h3>
+            <p class="text-gray-400 text-sm font-medium">Showing 3 of 12 items</p>
+        </div>
         
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
             
             <div class="beanie-card group">
-                <div class="aspect-square bg-gray-100 rounded-3xl overflow-hidden mb-4 flex items-center justify-center relative">
-                    <span class="text-gray-300 font-bold uppercase tracking-widest text-sm">Foto kulichu</span>
-                    <div class="absolute top-4 left-4 bg-white px-3 py-1 rounded-full text-[10px] font-bold shadow-sm">BESTSELLER</div>
+                <div class="aspect-square bg-gray-100 rounded-3xl overflow-hidden mb-6 flex items-center justify-center relative">
+                    <span class="text-gray-300 font-bold uppercase tracking-widest text-xs">Product Image</span>
+                    <div class="absolute top-6 left-6 bg-white px-4 py-1.5 rounded-full text-[10px] font-bold shadow-sm tracking-widest uppercase">Best Seller</div>
                 </div>
-                <div class="flex justify-between items-start">
+                <div class="flex justify-between items-start px-2">
                     <div>
                         <h4 class="text-xl font-bold uppercase tracking-tight">Onyx Black Beanie</h4>
-                        <p class="text-gray-400 text-sm">Klasický žebrovaný úplet</p>
+                        <p class="text-gray-400 text-sm">Classic Ribbed Knit</p>
                     </div>
-                    <p class="text-xl font-black">399 Kč</p>
+                    <p class="text-xl font-black">$24.00</p>
                 </div>
-                <button class="w-full mt-6 border-2 border-black py-3 font-bold rounded-xl group-hover:bg-black group-hover:text-white transition">PŘIDAT DO KOŠÍKU</button>
+                <button class="w-full mt-8 bg-black text-white py-4 font-bold rounded-2xl hover:bg-gray-800 transition tracking-tight uppercase">Add to cart</button>
             </div>
 
             <div class="beanie-card group">
-                <div class="aspect-square bg-gray-100 rounded-3xl overflow-hidden mb-4 flex items-center justify-center">
-                    <span class="text-gray-300 font-bold uppercase tracking-widest text-sm">Foto kulichu</span>
+                <div class="aspect-square bg-gray-100 rounded-3xl overflow-hidden mb-6 flex items-center justify-center relative">
+                    <span class="text-gray-300 font-bold uppercase tracking-widest text-xs">Product Image</span>
                 </div>
-                <div class="flex justify-between items-start">
+                <div class="flex justify-between items-start px-2">
                     <div>
                         <h4 class="text-xl font-bold uppercase tracking-tight">Stone Grey Beanie</h4>
-                        <p class="text-gray-400 text-sm">Měkká merino vlna</p>
+                        <p class="text-gray-400 text-sm">Premium Merino Wool</p>
                     </div>
-                    <p class="text-xl font-black">450 Kč</p>
+                    <p class="text-xl font-black">$29.00</p>
                 </div>
-                <button class="w-full mt-6 border-2 border-black py-3 font-bold rounded-xl group-hover:bg-black group-hover:text-white transition">PŘIDAT DO KOŠÍKU</button>
+                <button class="w-full mt-8 bg-black text-white py-4 font-bold rounded-2xl hover:bg-gray-800 transition tracking-tight uppercase">Add to cart</button>
             </div>
 
             <div class="beanie-card group">
-                <div class="aspect-square bg-gray-100 rounded-3xl overflow-hidden mb-4 flex items-center justify-center">
-                    <span class="text-gray-300 font-bold uppercase tracking-widest text-sm text-center px-4">Foto kulichu</span>
+                <div class="aspect-square bg-gray-100 rounded-3xl overflow-hidden mb-6 flex items-center justify-center relative">
+                    <span class="text-gray-300 font-bold uppercase tracking-widest text-xs">Product Image</span>
+                    <div class="absolute top-6 left-6 bg-black text-white px-4 py-1.5 rounded-full text-[10px] font-bold shadow-sm tracking-widest uppercase italic">Limited</div>
                 </div>
-                <div class="flex justify-between items-start">
+                <div class="flex justify-between items-start px-2">
                     <div>
                         <h4 class="text-xl font-bold uppercase tracking-tight">Neon Vibe Beanie</h4>
-                        <p class="text-gray-400 text-sm">Limitovaná edice</p>
+                        <p class="text-gray-400 text-sm">Street Culture Special</p>
                     </div>
-                    <p class="text-xl font-black">499 Kč</p>
+                    <p class="text-xl font-black">$32.00</p>
                 </div>
-                <button class="w-full mt-6 border-2 border-black py-3 font-bold rounded-xl group-hover:bg-black group-hover:text-white transition">PŘIDAT DO KOŠÍKU</button>
+                <button class="w-full mt-8 bg-black text-white py-4 font-bold rounded-2xl hover:bg-gray-800 transition tracking-tight uppercase">Add to cart</button>
             </div>
 
         </div>
     </main>
 
-    <footer class="bg-black text-white py-16 px-6">
-        <div class="container mx-auto text-center">
-            <h2 class="text-3xl font-black italic mb-4">BEANIE.CO</h2>
-            <p class="text-gray-500 text-sm mb-8">Designováno v roce 2026. Žádné platformy, jen my.</p>
-            <div class="flex justify-center gap-6 grayscale opacity-50">
-                <span>INSTAGRAM</span>
-                <span>TIKTOK</span>
+    <footer class="bg-black text-white py-20 px-6 mt-20">
+        <div class="container mx-auto">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-8 mb-12 border-b border-gray-800 pb-12">
+                <h2 class="text-4xl font-black italic tracking-tighter">BEANIE.CO</h2>
+                <div class="flex gap-10 text-[10px] font-bold tracking-[0.3em] uppercase">
+                    <a href="#" class="hover:text-gray-400 transition">Instagram</a>
+                    <a href="#" class="hover:text-gray-400 transition">TikTok</a>
+                    <a href="#" class="hover:text-gray-400 transition">Shipping</a>
+                </div>
             </div>
+            <p class="text-gray-600 text-[10px] text-center uppercase tracking-widest">© 2026 BEANIE.CO Studio | All rights reserved.</p>
         </div>
     </footer>
 
